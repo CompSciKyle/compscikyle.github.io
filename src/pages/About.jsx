@@ -31,7 +31,6 @@ const About = () => {
 
         <div className="py-16">
           <h3 className="subhead-text">Work Experience</h3>
-          <p>Lorem Ipsum</p>
         </div>
 
         <div className="mt-12">

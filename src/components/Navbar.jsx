@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className="px-4 py-3 fixed w-full top-0 z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo or Home Link */}
-        <NavLink to="/" className="text-white font-bold text-lg">
+        <NavLink to="/" className="blue-gradient_text font-bold text-lg bg-white">
           Home
         </NavLink>
 
@@ -17,7 +17,7 @@ const Navbar = () => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              isActive ? 'text-blue-500' : 'text-white'
+              isActive ? 'text-blue-500' : 'blue-gradient_text' 
             }
           >
             About
@@ -25,7 +25,7 @@ const Navbar = () => {
           <NavLink
             to="/projects"
             className={({ isActive }) =>
-              isActive ? 'text-blue-500' : 'text-white'
+              isActive ? 'text-blue-500' : 'blue-gradient_text'
             }
           >
             Projects
@@ -33,7 +33,7 @@ const Navbar = () => {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? 'text-blue-500' : 'text-white'
+              isActive ? 'text-blue-500' : 'blue-gradient_text'
             }
           >
             Contact
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {/* Mobile Hamburger Menu */}
         <button
-          className="md:hidden text-white text-2xl"
+          className="md:hidden blue-gradient_text text-2xl"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           ☰
@@ -51,11 +51,11 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-black px-4 py-3 flex flex-col gap-4 text-center">
+        <div className="md:hidden bg-white/90 px-4 py-3 flex flex-col gap-4 text-center">
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              isActive ? 'text-blue-500' : 'text-white'
+              isActive ? 'text-black' : 'blue-gradient_text'
             }
             onClick={() => setIsMenuOpen(false)}
           >
@@ -64,7 +64,7 @@ const Navbar = () => {
           <NavLink
             to="/projects"
             className={({ isActive }) =>
-              isActive ? 'text-blue-500' : 'text-white'
+              isActive ? 'text-black' : 'blue-gradient_text'
             }
             onClick={() => setIsMenuOpen(false)}
           >
@@ -73,7 +73,7 @@ const Navbar = () => {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? 'text-blue-500' : 'text-white'
+              isActive ? 'text-black' : 'blue-gradient_text'
             }
             onClick={() => setIsMenuOpen(false)}
           >

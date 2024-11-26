@@ -15,7 +15,7 @@ const Home = () => {
       screenPosition = [20, -30, -65];
     } else {
       screenScale = [1, 0.9, 1];
-      screenPosition = [60, -90, -155];
+      screenPosition = [60, -100, -125];
     }
     officeRotation = [0.5, 3.3, 0];
     return [screenScale, screenPosition, officeRotation];
@@ -26,7 +26,7 @@ const Home = () => {
   return (
 <section className="w-full h-screen relative font-mono">
   <div className="absolute top-20 left-0 right-0 z-10 flex flex-col items-center justify-center text-white px-4">
-    <div className="mb-2 bg-white text-black-500 font-bold text-lg md:text-1xl lg:text-2xl text-center">
+    <div className="mb- blue-gradient_text font-bold text-lg md:text-1xl lg:text-2xl text-center bg-white ">
       HI THERE,
     </div>
     <div className="text-base md:text-lg lg:text-xl text-center">
