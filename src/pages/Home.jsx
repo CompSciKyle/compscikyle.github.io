@@ -11,8 +11,8 @@ const Home = () => {
   const adjustOfficeForScreenSize = () => {
     let screenScale, screenPosition, officeRotation;
     if (window.innerWidth < 768) {
-      screenScale = [1, 1, 1];
-      screenPosition = [0, -9, -8];
+      screenScale = [0.4, 0.4, 0.4];
+      screenPosition = [20, -30, -65];
     } else {
       screenScale = [1, 0.9, 1];
       screenPosition = [60, -90, -155];
@@ -24,14 +24,18 @@ const Home = () => {
   const [officeScale, officePosition, officeRotation] = adjustOfficeForScreenSize();
 
   return (
-    <section className="w-full h-screen relative font-mono">
-        <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center text-white">
-        <div className="absolute top-20 left-0 right-0 z-10 flex flex-col items-center justify-center text-white">
-        <div className="mb-2 pl-1 bg-white text-black-500 font-extrabold ">HI THERE,</div>
-        <div className='justify-items-start'> MY NAME IS <span className="font-semibold">KYLE</span></div>
-        <div>AND I'M IN MY THIRD YEAR OF COMPUTER SCIENCE AT JOHN ABBOTT</div>
-        </div>
-        </div>
+<section className="w-full h-screen relative font-mono">
+  <div className="absolute top-20 left-0 right-0 z-10 flex flex-col items-center justify-center text-white px-4">
+    <div className="mb-2 bg-white text-black-500 font-bold text-lg md:text-1xl lg:text-2xl text-center">
+      HI THERE,
+    </div>
+    <div className="text-base md:text-lg lg:text-xl text-center">
+      MY NAME IS <span className="font-semibold">KYLE</span>
+    </div>
+    <div className="text-sm md:text-base lg:text-lg text-center mt-2">
+      AND I'M IN MY THIRD YEAR OF COMPUTER SCIENCE AT JOHN ABBOTT
+    </div>
+    </div>
       <Canvas
         className={`w-full h-screen bg-black ${isRotating ? 'cursor-grabbing' : 'cursor-grab'}`}
         camera={{ near: 0.1, far: 1000 }}>
