@@ -14,10 +14,10 @@ const Home = () => {
       screenScale = [1, 1, 1];
       screenPosition = [0, -9, -8];
     } else {
-      screenScale = [1.5, 1.5, 1.5];
-      screenPosition = [0, -9.5, -11];
+      screenScale = [1, 0.9, 1];
+      screenPosition = [60, -90, -155];
     }
-    officeRotation = [-Math.PI / 2, 0, -8.5];
+    officeRotation = [0.5, 3.3, 0];
     return [screenScale, screenPosition, officeRotation];
   };
 

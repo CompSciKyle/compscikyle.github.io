@@ -61,7 +61,7 @@ const Office = ({isRotating, setIsRotating,  setCurrentStage,
       // relative to the viewport's width
       const delta = (clientX - lastX.current) / viewport.width;
 
-      officeRef.current.rotation.z += delta * 0.01 * Math.PI;
+      officeRef.current.rotation.y += delta * 0.01 * Math.PI;
 
       // Update the reference for the last clientX position
       lastX.current = clientX;
@@ -76,12 +76,12 @@ const Office = ({isRotating, setIsRotating,  setCurrentStage,
     if (event.key === "ArrowLeft") {
       if (!isRotating) setIsRotating(true);
 
-      officeRef.current.rotation.z += 0.005 * Math.PI;
+      officeRef.current.rotation.y += 0.005 * Math.PI;
       rotationSpeed.current = 0.007;
     } else if (event.key === "ArrowRight") {
       if (!isRotating) setIsRotating(true);
 
-      officeRef.current.rotation.z -= 0.005 * Math.PI;
+      officeRef.current.rotation.y -= 0.005 * Math.PI;
       rotationSpeed.current = -0.007;
     }
   };
@@ -117,7 +117,7 @@ const Office = ({isRotating, setIsRotating,  setCurrentStage,
       const clientX = e.touches ? e.touches[0].clientX : e.clientX;
       const delta = (clientX - lastX.current) / viewport.width;
   
-      officeRef.current.rotation.z += delta * 0.01 * Math.PI;
+      officeRef.current.rotation.y += delta * 0.01 * Math.PI;
       lastX.current = clientX;
       // rotationSpeed.current = delta * 0.01 * Math.PI;
     }
@@ -165,10 +165,10 @@ const Office = ({isRotating, setIsRotating,  setCurrentStage,
         rotationSpeed.current = 0;
       }
 
-      officeRef.current.rotation.z += rotationSpeed.current;
+      officeRef.current.rotation.y += rotationSpeed.current;
     } else {
 
-      const rotation = officeRef.current.rotation.z;
+      const rotation = officeRef.current.rotation.y;
 
       const normalizedRotation = ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
 
