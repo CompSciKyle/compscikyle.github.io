@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className="px-4 py-3 fixed w-full top-0 z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo or Home Link */}
-        <NavLink to="/" className="blue-gradient_text font-bold text-lg bg-white">
+        <NavLink to="/3D-Portfolio" className="blue-gradient_text font-bold text-lg bg-white">
           Home
         </NavLink>
 
