@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/', // Correct base path for deployment
+  assetsInclude: ['**/*.glb'], // Ensure .glb files are treated as assets
   build: {
     rollupOptions: {
-      input: './index.html', // Ensure this points to your entry file
+      output: {
+        assetFileNames: 'assets/[name][extname]', // Ensure consistent asset naming
+      },
     },
   },
 });
