@@ -10,7 +10,8 @@ Welcome to my portfolio website! This project is a showcase of my skills and pro
 - **Modern Styling**: Styled with [Tailwind CSS](https://tailwindcss.com/) for a sleek and clean design.
 - **Interactive Project Showcase**: Highlighting my work with engaging visuals and animations.
 
-![Portfolio Preview](https://media.giphy.com/media/QZ9tAsdCNAM1ZfLtLx/giphy.gif)
+![Portfolio Preview](![pixel-jeff-matrix-s (1)](https://github.com/user-attachments/assets/2bf17b2b-cabe-486a-84c1-4fd16762a8cb)
+
 
 ## 🛠️ Technologies Used
 
