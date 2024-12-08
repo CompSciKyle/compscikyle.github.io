@@ -14,12 +14,12 @@ const Projects = () => {
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>Third-year computer science student studying at John Abbott College.</p>
+        <p>"These are projects I've built during hackathons, school, and in my free time."</p>
       </div>
 
       <div className='flex flex-wrap my-20 gap-16'>
         {projects.map((project) => (
-           <div className='lg:w-[400px] w-full' key={project.name}>
+           <div className='lg:w-[410px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
               <div className={`btn-back rounded-xl ${project.theme}`}/>
               <div className='btn-front rounded-xl flex justify-center'> 
@@ -36,7 +36,7 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className='mt-5 flex items-center gap-2 font-poppins'> 
-                <Link to={project.Link} target="_blank" rel="noopener noreferrer" className='font-semibold text-blue-600'>
+                <Link to={project.link} target="_blank" rel="noopener noreferrer" className='font-semibold text-blue-600'>
                     Live Link
                 </Link>
 

@@ -1,5 +1,5 @@
 
-import {pools, goblin, parhamfair} from "../assets/images";
+import {pools, goblin, parhamfair, career, calendar} from "../assets/images";
 import {
     contact,
     css,
@@ -145,16 +145,23 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: goblin,
-        theme: 'btn-back-red',
+        theme: 'btn-back-green',
         name: 'Film Golbin',
         description: 'Launched a user-centric web application built on MVC architecture to facilitate tracking of watched movies. Created a comprehensive test suite that covers the model and view logic.',
         link: 'https://github.com/CompSciKyle/Film-Goblin',
     },
     {
-        iconUrl: goblin,
-        theme: 'btn-back-green',
+        iconUrl: career,
+        theme: 'btn-back-red',
         name: 'Career Matchmaker',
         description: ' Rapidly developed features of the project in a team environment in under a day at a Hackathon. Engineered a career matchmaking quiz leveraging an API to align users with ideal job roles and providing tailored career recommendations.',
         link: 'https://github.com/CompSciKyle/CareerMatchmaker',
     },
+    {
+        iconUrl: calendar,
+        theme: 'btn-black-blue',
+        name: 'Calendar App',
+        description: 'Developed a user-focused WPF application simulating a home calendar, utilizing the MVP architecture. Collaborated within a team environment following Scrum methodologies and implemented CI/CD practices.',
+        link: 'https://github.com/CompSciKyle/JAC-AppDev1-2024-TheFunnyBones'
+    }
 ];
