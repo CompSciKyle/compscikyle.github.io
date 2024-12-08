@@ -10,7 +10,7 @@ Welcome to my portfolio website! This project is a showcase of my skills and pro
 - **Modern Styling**: Styled with [Tailwind CSS](https://tailwindcss.com/) for a sleek and clean design.
 - **Interactive Project Showcase**: Highlighting my work with engaging visuals and animations.
   
-<img src="https://github.com/user-attachments/assets/7911d01a-5656-484b-b28b-401eb630ea49" alt="Pixel Jeff Matrix" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/7911d01a-5656-484b-b28b-401eb630ea49" alt="Pixel Jeff Matrix" width="600" height="350">
 
 
 
