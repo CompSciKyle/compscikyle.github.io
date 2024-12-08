@@ -1,11 +1,24 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website! This project is a showcase of my skills and projects, built with modern web development technologies to create a visually appealing and highly interactive experience.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# compscikyle.github.io
-# compscikyle.github.io
-# compscikyle.github.io
+- **3D Animations**: Interactive and dynamic 3D elements powered by [Three.js](https://threejs.org/).
+- **Lightning-Fast Performance**: Built with [React](https://reactjs.org/) and [Vite](https://vitejs.dev/) for optimal speed.
+- **Responsive Design**: Fully responsive and mobile-friendly, ensuring a great experience on any device.
+- **Modern Styling**: Styled with [Tailwind CSS](https://tailwindcss.com/) for a sleek and clean design.
+- **Interactive Project Showcase**: Highlighting my work with engaging visuals and animations.
+
+![Portfolio Preview](https://media.giphy.com/media/QZ9tAsdCNAM1ZfLtLx/giphy.gif)
+
+## 🛠️ Technologies Used
+
+- **React**: For building the user interface.
+- **Vite**: Development environment for fast and efficient bundling.
+- **Three.js**: To add immersive 3D elements.
+- **Tailwind CSS**: For modern, utility-first styling.
+- **JavaScript (ES6)**: Core language for interactivity.
+
+## 🚀 Click The Link To Get Started
+(Website)[https://compscikyle.github.io/]
