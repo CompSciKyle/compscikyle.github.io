@@ -9,8 +9,9 @@ Welcome to my portfolio website! This project is a showcase of my skills and pro
 - **Responsive Design**: Fully responsive and mobile-friendly, ensuring a great experience on any device.
 - **Modern Styling**: Styled with [Tailwind CSS](https://tailwindcss.com/) for a sleek and clean design.
 - **Interactive Project Showcase**: Highlighting my work with engaging visuals and animations.
+  
+<img src="https://github.com/user-attachments/assets/7911d01a-5656-484b-b28b-401eb630ea49" alt="Pixel Jeff Matrix" width="400" height="300">
 
-![Portfolio Preview](![pixel-jeff-matrix-s (1)](https://github.com/user-attachments/assets/2bf17b2b-cabe-486a-84c1-4fd16762a8cb)
 
 
 ## 🛠️ Technologies Used
